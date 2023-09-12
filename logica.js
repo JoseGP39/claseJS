@@ -1,40 +1,50 @@
-var themeNumber = parseInt(readLine(themeNumber),
+var diasSemana = parseInt(readLine(diasSemana),
     10);
     /*
-    1 - Light
-    2 - Dark
-    3 - Nocturne
-    4 - Terminal
-    5 - Indigo
+    1 - Lunes
+    2 - Martes
+    3 - Miercoles
+    4 - Jueves
+    5 - Viernes
+    6 - Sabado
+    7 - Doimingo
     */
-    // Tu código va aquí
     
     
-    switch (themeNumber){
+    
+    switch (diasSemana){
     
     case 1:
-    console.log("Light");
+    console.log("Lunes");
     break;
     
     
     case 2:
-    console.log("Dark");
+    console.log("Martes");
     break;
     
     case 3:
-    console.log("Noctune");
+    console.log("Miercoles");
     break;
     
     case 4:
-    console.log("Terminal");
+    console.log("Jueves");
     break;
     
     case 5:
-    console.log("Indigo");
+    console.log("Viernes");
+    break;
+
+    case 6:
+    console.log("Sabado");
+    break;
+
+    case 7:
+    console.log("Domingo");
     break;
     
     default:
-    console.log("Another color");
+    console.log("No es un dia de semana");
     
     }
 }
