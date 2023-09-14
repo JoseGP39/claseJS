@@ -1,5 +1,5 @@
-var martes = parseInt(readLine(martes),
-    10);
+var martes; //= parseInt(readLine(martes),
+   // 10);
     /*
     1 - Lunes
     2 - Martes
