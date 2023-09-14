@@ -1,4 +1,4 @@
-var diasSemana = parseInt(readLine(diasSemana),
+var martes = parseInt(readLine(martes),
     10);
     /*
     1 - Lunes
@@ -12,7 +12,7 @@ var diasSemana = parseInt(readLine(diasSemana),
     
     
     
-    switch (diasSemana){
+    switch (martes){
     
     case 1:
     console.log("Lunes");
