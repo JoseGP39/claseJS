@@ -1,5 +1,5 @@
-//var martes; //= parseInt(readLine(martes),
-   // 10);
+var martes = parseInt(readLine(martes),
+    10);
     /*
     1 - Lunes
     2 - Martes
@@ -12,7 +12,7 @@
     
     
     
-    /*switch (martes){
+    switch (martes){
     
     case 1:
     console.log("Lunes");
@@ -47,4 +47,4 @@
     console.log("No es un dia de semana");
     
     }
-}*/
+}
